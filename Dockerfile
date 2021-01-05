@@ -1,7 +1,7 @@
-FROM HellBoy-OP/HellBot:latest
+FROM Devil/DevilBot:latest
 
 #clonning repo 
-RUN git clone https://github.com/HellBoy-OP/L/HellBot.git/root/userbot
+RUN git clone https://github.com/lucifeermorningstar/deviluserbot.git/root/userbot
 #working directory 
 WORKDIR /root/userbot
 
