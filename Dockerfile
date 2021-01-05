@@ -1,7 +1,7 @@
 FROM Devil/DevilBot:latest
 
 #clonning repo 
-RUN git clone https://github.com/lucifeermorningstar/deviluserbot.git/root/userbot
+RUN git clone https://github.com/lucifeermorningstar/deviluserbot.git/root/Userbot
 #working directory 
 WORKDIR /root/userbot
 
