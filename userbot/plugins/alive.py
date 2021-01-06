@@ -16,7 +16,7 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = Config.ALIVE_IMAGE
+PM_IMG = " https://telegra.ph/file/c2bbdc0f85074429fd928.jpg "
 pm_caption = "➥ **DEVIL USERBOT IS:** `ONLINE`\n\n"
 pm_caption += "➥ **SYSTEMS STATS**\n"
 pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
