@@ -16,21 +16,25 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = " https://telegra.ph/file/c2bbdc0f85074429fd928.jpg "
-pm_caption = "➥ **DEVIL USERBOT IS:** `ONLINE`\n\n"
-pm_caption += "➥ **SYSTEMS STATS**\n"
-pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
-pm_caption += "➥ **Python:** `3.7.4` \n"
-pm_caption += f"➥ **Owner** : 'Devil' \n"
-pm_caption += "➥ **Database Status:**  `ALL GOOD`\n"
-pm_caption += "➥ **Current Branch** : `master`\n"
-pm_caption += f"➥ **Version** : `D.0`\n"
-pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
-pm_caption += "➥ **Heroku Database** : `WORKING PROPERLY`\n\n"
-pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/lucifeermorningstar/deviluserbot/blob/master/LICENSE)\n"
-pm_caption += "➥ **Copyright** : By [lucifeermorningstar@Github](GitHub.com/lucifeermorningstar)\n"
-pm_caption += "➥ **Check Stats By Doing** `.stat`. \n\n"
-pm_caption += "[🇮🇳 Deploy DevilUserbot 🇮🇳](https://telegra.ph/file/c2bbdc0f85074429fd928.jpg)"
+PM_IMG = "https://telegra.ph/file/c2bbdc0f85074429fd928.jpg"
+pm_caption = "__**�🔥🔥𝙳𝚎𝚟𝚒𝚕 υѕєявσт ιѕ ση ƒιяє🔥🔥**__\n\n"
+
+pm_caption += (
+    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={kraken})』**\n\n"
+)
+
+pm_caption += "†êlê†hðñ Vêr§ïðñ: `1.15.0` \n"
+
+pm_caption += f"ĐɆVłⱠ฿Ø₮ VɆⱤ₴łØ₦      : __**{hellversion}**__\n"
+
+pm_caption += f"sᴜᴅᴏ            : `{sudou}`\n"
+
+pm_caption += "ꇙ꒤ꉣꉣꄲꋪ꓄ ꍌꋪꄲ꒤ꉣ  : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+
+pm_caption += "𝙲𝚛𝚎𝚊𝚝𝚘𝚛    : [Click Here](https://t.me/lucifeermorningstar)\n\n"
+
+pm_caption += "    [✨REPO✨](https://github.com/lucifeermorningstar/deviluserbot) 🔹 [📜License📜](https://github.com/lucifeermorningstar/deviluserbot/blob/master/LICENSE)"
+
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
