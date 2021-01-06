@@ -17,7 +17,7 @@ else:
 kraken = bot.uid
 
 PM_IMG = "https://telegra.ph/file/fbe697363d312fec4b671.jpg"
-pm_caption = "__**🔥����evilUserɮօt ɨs օռʟɨռɛ🔥🔥**__\n\n"
+pm_caption = "__**🔥����DevilUserɮօt ɨs օռʟɨռɛ🔥🔥**__\n\n"
 
 pm_caption += (
     f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={kraken})』**\n\n"
@@ -33,7 +33,7 @@ pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/Deviluserbot)\n
 
 pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/lucifeermorningstar)\n\n"
 
-pm_caption += "    [✨REPO✨](t.me/lucifeermorningstar)) 
+pm_caption += "    [✨REPO✨](t.me/lucifeermorningstar)) "
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
