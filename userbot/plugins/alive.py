@@ -25,6 +25,8 @@ pm_caption += (
 
 pm_caption += "†êlê†hðñ Vêr§ïðñ: `1.15.0` \n"
 
+pm_caption += "➥ Python: 3.7.4 \n"
+
 pm_caption += f"ĐɆVłⱠ฿Ø₮ VɆⱤ₴łØ₦      : __**{hellversion}**__\n"
 
 pm_caption += f"sᴜᴅᴏ            : `{sudou}`\n"
