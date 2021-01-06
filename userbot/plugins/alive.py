@@ -17,7 +17,7 @@ else:
 kraken = bot.uid
 
 PM_IMG = "https://telegra.ph/file/c2bbdc0f85074429fd928.jpg"
-pm_caption = "__**�🔥🔥𝙳𝚎𝚟𝚒𝚕 υѕєявσт ιѕ ση ƒιяє🔥🔥**__\n\n"
+pm_caption = "__**🔥🔥𝙳𝚎𝚟𝚒𝚕 υѕєявσт ιѕ ση ƒιяє🔥🔥**__\n\n"
 
 pm_caption += (
     f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={kraken})』**\n\n"
@@ -25,7 +25,7 @@ pm_caption += (
 
 pm_caption += "†êlê†hðñ Vêr§ïðñ: `1.15.0` \n"
 
-pm_caption += "➥ Python: 3.7.4 \n"
+pm_caption += "ꉣꌦ꓄꒻ꄲꋊ ꒦ꏂꋪꇙ꒐ꄲꋊ: '3.7.4' \n"
 
 pm_caption += f"ĐɆVłⱠ฿Ø₮ VɆⱤ₴łØ₦      : __**D.0**__\n"
 
