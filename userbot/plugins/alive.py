@@ -27,11 +27,11 @@ pm_caption += "†êlê†hðñ Vêr§ïðñ: `1.15.0` \n"
 
 pm_caption += "➥ Python: 3.7.4 \n"
 
-pm_caption += f"ĐɆVłⱠ฿Ø₮ VɆⱤ₴łØ₦      : __**{hellversion}**__\n"
+pm_caption += f"ĐɆVłⱠ฿Ø₮ VɆⱤ₴łØ₦      : __**D.0**__\n"
 
 pm_caption += f"sᴜᴅᴏ            : `{sudou}`\n"
 
-pm_caption += "ꇙ꒤ꉣꉣꄲꋪ꓄ ꍌꋪꄲ꒤ꉣ  : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+pm_caption += "ꇙ꒤ꉣꉣꄲꋪ꓄ ꍌꋪꄲ꒤ꉣ  : [ᴊᴏɪɴ](https://t.me/deviluserbot)\n"
 
 pm_caption += "𝙲𝚛𝚎𝚊𝚝𝚘𝚛    : [Click Here](https://t.me/lucifeermorningstar)\n\n"
 
