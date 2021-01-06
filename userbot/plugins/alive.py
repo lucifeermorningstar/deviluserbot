@@ -16,24 +16,21 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = "https://telegra.ph/file/fbe697363d312fec4b671.jpg"
-pm_caption = "__**🔥DevilUserɮօt ɨs օռʟɨռɛ🔥🔥**__\n\n"
-
-pm_caption += (
-    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={kraken})』**\n\n"
-)
-
-pm_caption += "☠️TELETHON☠️ : `1.15.0` \n"
-
-pm_caption += f"☠️Dèvílẞø†☠️     : 'D.1' \n"
-
-pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
-
-pm_caption += "⚠☠️CHANNEL☠️   : [ᴊᴏɪɴ](https://t.me/Deviluserbot)\n"
-
-pm_caption += "☠️CREATOR☠️    : [Nub Here](https://t.me/lucifeermorningstar)\n\n"
-
-pm_caption += "    [✨REPO✨](t.me/lucifeermorningstar)) "
+PM_IMG = Config.ALIVE_IMAGE
+pm_caption = "➥ **DEVIL USERBOT IS:** `ONLINE`\n\n"
+pm_caption += "➥ **SYSTEMS STATS**\n"
+pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
+pm_caption += "➥ **Python:** `3.7.4` \n"
+pm_caption += f"➥ **Uptime** : `{uptime}` \n"
+pm_caption += "➥ **Database Status:**  `ALL GOOD`\n"
+pm_caption += "➥ **Current Branch** : `master`\n"
+pm_caption += f"➥ **Version** : `D.0`\n"
+pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
+pm_caption += "➥ **Heroku Database** : `WORKING PROPERLY`\n\n"
+pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/lucifeermorningstar/deviluserbot/blob/master/LICENSE)\n"
+pm_caption += "➥ **Copyright** : By [lucifeermorningstar@Github](GitHub.com/lucifeermorningstar)\n"
+pm_caption += "➥ **Check Stats By Doing** `.stat`. \n\n"
+pm_caption += "[🇮🇳 Deploy DevilUserbot 🇮🇳](https://telegra.ph/file/c2bbdc0f85074429fd928.jpg)"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
