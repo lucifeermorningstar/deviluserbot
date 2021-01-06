@@ -91,7 +91,7 @@ async def _(event):
             ms = (end - start).seconds
             hellboy = f"https://telegra.ph/{response['path']}"
             await edit_or_reply(event, 
-                  f"✓ **Pasted to** [telegraph]({hellboy}) \n✓ **Time Taken :-** `{ms}` secs\n✓** By :- **[{HELL_NAME}](tg://user?id={kraken})", link_preview=True)
+                  f"✓ **Pasted to** [telegraph]({Devil}) \n✓ **Time Taken :-** `{ms}` secs\n✓** By :- **[{HELL_NAME}](tg://user?id={kraken})", link_preview=True)
     else:
         await edit_or_reply(event, 
             "Reply to a message to get a permanent telegra.ph link."
