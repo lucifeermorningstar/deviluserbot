@@ -39,7 +39,7 @@ async def blowjob(event):
     except Exception as e:
         await edit_or_reply(event, "Error occured!\nError is " + str(e))
     else:
-        await edit_or_reply(event, "Successfully Fucked this user's mouth.")
+        await edit_or_reply(event, "Successfully Fucked this user oske muh me dal diya abh nhi bolega lawda.")
 
 
 @bot.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
@@ -49,7 +49,7 @@ async def cumshot(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await edit_or_reply(event, "Today's sex done. Now son can speak✌️🚶")
+        await edit_or_reply(event, "Today's sex done. Now son can speak abh nikal diya muh me se abh bol skta hai✌️🚶")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
