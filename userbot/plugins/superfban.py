@@ -21,7 +21,7 @@ from userbot import CMD_HELP
 # By @HeisenbergTheDanger, @its_xditya
 
 
-@telebot.on(admin_cmd("superfban ?(.*)"))
+@userbot.on(admin_cmd("superfban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
