@@ -31,7 +31,7 @@ KRAKEN = (
     else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS CRIME"
 )
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Dèvílẞøt Usêr"
-USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's Hêllẞø†.**\n__Now GTFO, i'm busy__"
+USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's Dèvílẞø†.**\n__Now GTFO, i'm busy__"
 USER_BOT_NO_WARN = (
     "Hello, This is **Dèvílẞø† Úl†rã Pr¡va†e Security Protocol⚠️**.\n"
     f"This is my master {DEFAULTUSER}'s Inbox\n"
