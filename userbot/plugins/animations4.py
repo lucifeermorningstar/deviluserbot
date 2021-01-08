@@ -228,7 +228,13 @@ async def sprinkle(event):
     await edit_or_reply(event, 
         "✨.•*¨*.¸.•*¨*.¸¸.•*¨*• ƸӜƷ\n🌸🌺🌸🌺🌸🌺🌸🌺\n Sprinkled with love❤\n🌷🌻🌷🌻🌷🌻🌷🌻\n ¨*.¸.•*¨*. ¸.•*¨*.¸¸.•*¨`*•.✨\n🌹🍀🌹🍀🌹🍀🌹🍀"
     )
-    
+
+@bot.on(admin_cmd(pattern=r"devil", outgoing=True))
+@bot.on(sudo_cmd(pattern=r"devil", allow_sudo=True))
+async def getwell(event):
+    if event.fwd_from:
+        return
+    await edit_or_reply(event, "I am Your Father Devil Mere se panga mat lena teri gand toh fategi he sathe me pura khadan chodega tera") 
 
 @bot.on(admin_cmd(pattern=r"f", outgoing=True))
 @bot.on(sudo_cmd(pattern=r"f", allow_sudo=True))
@@ -270,6 +276,8 @@ CmdHelp("animations4").add_command(
   "sprinkle", None, "Use and see"
 ).add_command(
   "getwell", None, "Use and see"
+).add_command(
+  "devil", None,   "Use and see"
 ).add_command(
   "cheer", None, "Use and see"
 ).add_command(
