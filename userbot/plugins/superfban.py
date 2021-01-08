@@ -21,7 +21,7 @@ from userbot import CMD_HELP
 # By @unknownkanger, @unknownkanger
 
 
-@userbot.on(admin_cmd("superfban ?(.*)"))
+@bot.on(admin_cmd("superfban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -162,7 +162,7 @@ async def _(event):
 # By @HeisenbergTheDanger, @its_xditya
 
 
-@userbot.on(admin_cmd("superunfban ?(.*)"))
+@bot.on(admin_cmd("superunfban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
