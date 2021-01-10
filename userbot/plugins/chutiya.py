@@ -94,8 +94,4 @@ async def _(event):
             "Tere gaand mein keede paday- May worms infest your ass-hole",
             "Ullu ke pathe- Idiot`")
 
-    await asyncio.sleep(999)
-
-CMD_HELP.update(
-    {
-        "chutiya": """**Plugin : **`chutiya`
+    
