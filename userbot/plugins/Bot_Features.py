@@ -3,7 +3,7 @@ import asyncio
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from uniborg.util import lightning_cmd
+from uniborg.utills import lightning_cmd
 
 
 @borg.on(lightning_cmd(pattern="purl ?(.*)", allow_sudo=True))
