@@ -21,11 +21,11 @@ if ENV:
         # This is required for the hash to torrent file functionality to work.
         HASH_TO_TORRENT_API = os.environ.get("HASH_TO_TORRENT_API", "https://example.com/torrent/{}");
         # This is required for the @telegraph functionality.
-        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "HellBot")
+        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "DevilBot")
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         # Send .get_id in any group with all your administration bots (added)
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001198699233))
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001303171265)
         # TG API limit. An album can have atmost 10 media!
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
         TG_GLOBAL_ALBUM_LIMIT = int(os.environ.get("TG_GLOBAL_ALBUM_LIMIT", 9))
@@ -139,7 +139,7 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API",None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "No Repo Yet Coming Soon"  )
+            "UPSTREAM_REPO", https://github.com/lucifeermorningstar/deviluserbot"  )
         EXTRA_DEVILBOT = os.environ.get("EXTRA_DEVILBOT", -1001221881562)
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
         
