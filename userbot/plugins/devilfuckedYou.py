@@ -1,11 +1,11 @@
-"""COMMAND : .devil"""
+"""COMMAND : .da"""
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from uniborg.util import admin_cmd
 
 
-@bot.on(admin_cmd("devil"))
+@bot.on(admin_cmd("da"))
 async def _(event):
     if event.fwd_from:
         return
