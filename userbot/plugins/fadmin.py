@@ -1,5 +1,5 @@
 """Available Commands:
-.bigoof
+.permote
 Credits to @TeleBotHelp
 
    TeleBot
@@ -23,7 +23,7 @@ async def _(event):
    # if input_str == "nope":
     await event.edit("Promoting...... ")
     animation_chars = [
-            "Promoted Successfully! Now gib Party 🥳"
+            "Promoted Successfully! Abh nacho sale"
          ]
             
 
