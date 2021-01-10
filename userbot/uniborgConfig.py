@@ -25,7 +25,7 @@ if ENV:
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         # Send .get_id in any group with all your administration bots (added)
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001303171265)
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001303171265))
         # TG API limit. An album can have atmost 10 media!
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
         TG_GLOBAL_ALBUM_LIMIT = int(os.environ.get("TG_GLOBAL_ALBUM_LIMIT", 9))
@@ -139,8 +139,9 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API",None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", https://github.com/lucifeermorningstar/deviluserbot"  )
-        EXTRA_DEVILBOT = os.environ.get("EXTRA_DEVILBOT", -1001221881562)
+            "UPSTREAM_REPO", "https://github.com/lucifeermorningstar/deviluserbot"
+        )
+        EXTRA_HELLBOT = os.environ.get("EXTRA_DevilBOT", -1001303171265)
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
         
 else:
