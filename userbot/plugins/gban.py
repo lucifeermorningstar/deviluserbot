@@ -86,7 +86,7 @@ async def gban(userbot):
     except:
         return await hellbot.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 924138714:
+        if user.id == 1037581197:
             return await hellbot.edit(
                 f"`First Grow Some Balls To Gban My Creater🤫🚶`"
             )
@@ -118,7 +118,7 @@ async def gban(userbot):
     except:
         pass
     return await hellbot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{HELLBOY}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\nGban Successful 🔥\nAffected Chats😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{Devil}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\nGban Successful 🔥\nAffected Chats😏 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
@@ -152,7 +152,7 @@ async def gunban(userbot):
     except:
         return await hellbot.edit("**Som3ting W3nt Wr0ng**")
     if user:
-        if user.id == 924138714:
+        if user.id == 1037581197:
             return await hellbot.edit("**You need to grow some balls to gban / ungban my creator**")
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
