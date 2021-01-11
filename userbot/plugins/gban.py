@@ -64,9 +64,9 @@ async def gban(userbot):
     if not sender.id == hum.id:
         hellbot = await edit_or_reply(ids, "Trying to gban this retard!")
     else:
-        hellbot = await edit_or_reply(ids, "`Ok! Gbaning this piece of shit....`")
+        hellbot = await edit_or_reply(ids, "`σк! ɢɴᴀɴɴɪɴɢ ᴛʜɪs ᴘɪᴇᴄᴇ ᴏғ sʜɪᴛ....`")
     hum = await userbot.client.get_me()
-    await hellbot.edit(f"`🔥Global Ban Iz Cumin'💦.... Wait and watch nigga🚶`")
+    await hellbot.edit(f"`🔥𝗚𝗹𝗼𝗯𝗮𝗹 𝗕𝗮𝗻𝗻𝗶𝗻𝗴 𝗧𝗵𝗶𝘀 𝗨𝘀𝗲𝗿...𝗝𝘂𝘀𝘁 𝗪𝗮𝗶𝘁 𝗔𝗻𝗱 𝗪𝗮𝘁𝗰𝗵🚶`")
     my_mention = "[{}](tg://user?id={})".format(hum.first_name, hum.id)
     f"@{hum.username}" if hum.username else my_mention
     await userbot.get_chat()
@@ -107,7 +107,7 @@ async def gban(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await hellbot.edit(f"Gbaning This retard🚶\n\nTotal Chats :- `{a}`")
+                await hellbot.edit(f"𝙂𝙗𝙖𝙣𝙣𝙞𝙣𝙜 𝙏𝙝𝙞𝙨 𝙐𝙨𝙚𝙧🚶\n\n𝙏𝙤𝙩𝙖𝙡 𝘾𝙝𝙖𝙩𝙨 𝘼𝙛𝙛𝙚𝙘𝙩𝙚𝙙:- `{a}`")
             except:
                 b += 1
     else:
@@ -118,7 +118,7 @@ async def gban(userbot):
     except:
         pass
     return await hellbot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{Devil}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\nGban Successful 🔥\nAffected Chats😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{Devil}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\nGban Successful 🔥\n𝘼𝙛𝙛𝙚𝙘𝙩𝙚𝙙 𝘾𝙝𝙖𝙩𝙨😏 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
@@ -128,9 +128,9 @@ async def gunban(userbot):
     sender = await ids.get_sender()
     hum = await ids.client.get_me()
     if not sender.id == hum.id:
-        hellbot = await edit_or_reply(ids, "`Trying to ungban this kid...`")
+        hellbot = await edit_or_reply(ids, "`𝙏𝙧𝙮𝙞𝙣𝙜 𝙩𝙤 𝙪𝙣𝙜𝙗𝙖𝙣 𝙩𝙝𝙞𝙨 𝙠𝙞𝙙. ..`")
     else:
-        hellbot = await edit_or_reply(ids, "`Ungban in progress...`")
+        hellbot = await edit_or_reply(ids, "`𝙐𝙣𝙜𝙗𝙖𝙣 𝙞𝙣 𝙋𝙧𝙤𝙜𝙧𝙚𝙨𝙨...`")
     hum = await userbot.client.get_me()
     await hellbot.edit(f"`Trying to ungban this kiddo...`")
     my_mention = "[{}](tg://user?id={})".format(hum.first_name, hum.id)
