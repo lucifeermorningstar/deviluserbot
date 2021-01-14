@@ -29,7 +29,7 @@ async def get_full_user(event):
         if user.isnumeric():
             user = int(user)
         if not user:
-            await edit_or_reply(event, "**Som3thing W3nt Wr0ng**\n`Can you please provide me a user id`")
+            await edit_or_reply(event, "**𝙎𝙤𝙢3𝙩𝙝𝙞𝙣𝙜 𝙒3𝙉𝙏 𝙒𝙧0𝙣𝙜**\n`Can you please provide me a user id`")
             return
         if event.message.entities is not None:
             probable_user_mention_entity = event.message.entities[0]
@@ -41,7 +41,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await edit_or_reply(event, "**Som3thing W3nt Wr0ng**\n", str(err))           
+            return await edit_or_reply(event, "**𝙎𝙤𝙢3𝙩𝙝𝙞𝙣𝙜 𝙒3𝙉𝙏 𝙒𝙧0𝙣𝙜**\n", str(err))           
     return user_obj, extra
 
 
@@ -62,7 +62,7 @@ async def gban(userbot):
     sender = await ids.get_sender()
     hum = await ids.client.get_me()
     if not sender.id == hum.id:
-        hellbot = await edit_or_reply(ids, "Trying to gban this retard!")
+        hellbot = await edit_or_reply(ids, "𝙏𝙧𝙮𝙞𝙣𝙜 𝙩𝙤 𝙜𝙗𝙖𝙣 𝙩𝙝𝙞𝙨 𝙧𝙚𝙩𝙖𝙧𝙙!")
     else:
         hellbot = await edit_or_reply(ids, "`σк! ɢɴᴀɴɴɪɴɢ ᴛʜɪs ᴘɪᴇᴄᴇ ᴏғ sʜɪᴛ....`")
     hum = await userbot.client.get_me()
@@ -84,11 +84,11 @@ async def gban(userbot):
         if not reason:
             reason = "Private"
     except:
-        return await hellbot.edit(f"**Something W3NT Wrong 🤔**")
+        return await hellbot.edit(f"**𝙎𝙤𝙢3𝙩𝙝𝙞𝙣𝙜 𝙒3𝙉𝙏 𝙒𝙧0𝙣𝙜 🤔**")
     if user:
         if user.id == 1037581197:
             return await hellbot.edit(
-                f"`First Grow Some Balls To Gban My Creater🤫🚶`"
+                f"'𝘼𝙗𝙚 𝙂𝙖𝙣𝙙𝙪 𝙅𝙖 𝙠𝙚 𝙜𝙖𝙣𝙙 𝙢𝙧𝙖 𝙖𝙥𝙣𝙚 𝙗𝙖𝙖𝙥 𝙠𝙤 𝙜𝙗𝙖𝙣 𝙣𝙝𝙞 𝙠𝙧 𝙨𝙠𝙩𝙖 𝙝𝙪🤫🚶`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -118,7 +118,7 @@ async def gban(userbot):
     except:
         pass
     return await hellbot.edit(
-        f"[{user.first_name}](tg://user?id={user.id}) Beta majdur ko khodna aur [{Devil}](tg://user?id={papa}) ko chodna kabhi sikhana nhi.\n\nGban Successful 🔥\n𝘼𝙛𝙛𝙚𝙘𝙩𝙚𝙙 𝘾𝙝𝙖𝙩𝙨😏 : {a} **"
+        f"[{user.first_name}](tg://user?id={user.id}) 𝙗𝙚𝙩𝙖 𝙢𝙖𝙟𝙙𝙪𝙧 𝙠𝙤 𝙠𝙝𝙤𝙙𝙣𝙖 𝙖𝙪𝙧 [{Devil}](tg://user?id={papa}) 𝙠𝙤 𝙘𝙝𝙤𝙙𝙣𝙖 𝙠𝙖𝙗𝙝𝙞 𝙨𝙞𝙠𝙝𝙖na 𝙣𝙝i.\n\nGban 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡 🔥\n𝘼𝙛𝙛𝙚𝙘𝙩𝙚𝙙 𝘾𝙝𝙖𝙩𝙨😏 : {a} **"
     )
 
 @bot.on(admin_cmd(pattern="ungban ?(.*)"))
