@@ -1,4 +1,4 @@
-from userbot import MONGO, REDIS
+from devilbot import MONGO, REDIS
 
 
 # Mutes
