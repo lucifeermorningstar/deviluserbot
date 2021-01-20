@@ -16,7 +16,7 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = "https://telegra.ph/file/c2bbdc0f85074429fd928.jpg"
+PM_IMG = str(ALIVE_PIC) if ALIVE_PIC else "https://telegra.ph/file/c2bbdc0f85074429fd928.jpg"
 pm_caption = "__**🔥🔥𝙳𝚎𝚟𝚒𝚕 υѕєявσт ιѕ ση ƒιяє🔥🔥**__\n\n"
 
 pm_caption += (
