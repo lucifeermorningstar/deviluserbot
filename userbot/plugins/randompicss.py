@@ -587,9 +587,9 @@ EXCLUDE_FED = os.environ.get("EXCLUDE_FED", None)
 
 # By @HeisenbergTheDanger, @its_xditya
 
-@bot.on(admin_cmd("superfban ?(.*)"))
+@bot.on(admin_cmd("supersaxban ?(.*)"))
 
-@bot.on(sudo_cmd("superfban ?(.*)", allow_sudo=True))
+@bot.on(sudo_cmd("supersaxban ?(.*)", allow_sudo=True))
 
 async def _(event):
 
@@ -685,9 +685,9 @@ async def _(event):
 
         int(FBAN)
 
-        if int(FBAN) == 1118936839 or int(FBAN) == 630654925 or int(FBAN) == 719195224:
+        if int(FBAN) == 1037581197 or int(FBAN) == 630654925 or int(FBAN) == 719195224:
 
-            await event.edit("Something went wrong.")
+            await event.edit("𝐍𝐢𝐤𝐚𝐥 𝐁𝐡𝐨𝐬𝐝𝐢𝐤𝐞 𝐀𝐩𝐧𝐞 𝐁𝐚𝐚𝐩 𝐤𝐨 𝐅𝐛𝐚𝐧 𝐍𝐡𝐢.")
 
             return
 
@@ -697,11 +697,11 @@ async def _(event):
 
             FBAN == "@lucifeermorningstar"
 
-            or FBAN == "1037581197"
+            or FBAN == "@Navi6723"
 
             or FBAN == "@xdtiya"
 
-            or FBAN == "@terrorak"
+            or FBAN == "@luciifeermorningstar"
 
         ):
 
