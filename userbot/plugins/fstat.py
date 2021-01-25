@@ -14,7 +14,7 @@ from userbot.utils import admin_cmd
 import time
 from userbot import ALIVE_NAME
 from userbot important CMD_HELP
-from userbot.cmdhelp important CmdHelp
+from userbot.cmdhelp import CmdHelp
 
 naam = str(ALIVE_NAME)
 
