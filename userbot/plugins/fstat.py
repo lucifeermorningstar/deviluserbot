@@ -2,6 +2,7 @@
 # For TeleBot
 # Kangers keep credits
 # By @Akash_AM1 and @xditya
+# Ported here by Devil. 
 
 import datetime
 import asyncio
@@ -12,6 +13,8 @@ from telethon.tl.functions.messages import ImportChatInviteRequest
 from userbot.utils import admin_cmd
 import time
 from userbot import ALIVE_NAME
+from userbot important CMD_HELP
+from userbot.cmdhelp important CmdHelp
 
 naam = str(ALIVE_NAME)
 
@@ -33,7 +36,7 @@ async def _(event):
               await borg.send_message(event.chat_id, audio.text)
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** unblock @MissRose_bot and retry!")
+              await event.edit("**Error:** `unblock` @MissRose_bot `and retry!")
     elif "@" in sysarg:
       async with borg.conversation(bot) as conv:
           try:
@@ -45,7 +48,7 @@ async def _(event):
               await borg.send_message(event.chat_id, audio.text)
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** unblock @MissRose_Bot and try again!")
+              await event.edit("**Error:** `unblock` @MissRose_Bot `and try again!")
     elif "" in sysarg:
       async with borg.conversation(bot) as conv:
           try:
@@ -57,4 +60,8 @@ async def _(event):
               await borg.send_message(event.chat_id, audio.text)
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** unblock @MissRose_Bot `and try again!")
+              await event.edit("**Error:** `unblock` @MissRose_Bot `and try again!")
+
+CmdHelp("fstat").add_command(
+  'fstat', 'to check in how many fed person banned'
+).add()
