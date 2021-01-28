@@ -7,4 +7,4 @@ DEPLOYING TO HEROKU
 # Credit Goes To
 1. @Errored_Bachha (Error Fixer) 
 2. Kraken (Hellbot owner) 
-3. LegendX (🙄) 
+3. LegendX (TEAMLEGEND) 
