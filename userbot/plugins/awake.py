@@ -90,7 +90,7 @@ async def amireallyalive(awake):
 
    await awake.delete() 
 
-   await borg.send_file(awake.chat_id, ALIVE_PHOTTO,caption=ALIVE_MESSAGE)
+   await borg.send_file(awake.chat_id, ALIVE_PIC)
 
 
 #make by LEGENDX22
