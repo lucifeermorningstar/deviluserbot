@@ -178,7 +178,7 @@ async def _(dyno):
         return await dyno.reply(
             " Please make sure your Heroku API Key, Your App name are configured correctly in the heroku\n\n[Visit Support Group For Help](https://t.me/hellbot_official_chat)"
         )
-    await dyno.edit("Getting Logs....")
+    await dyno.edit("𝙂𝙚𝙩𝙩𝙞𝙣𝙜 𝙇𝙤𝙜𝙨....")
     with open("logs.txt", "w") as log:
         log.write(app.get_log())
     await dyno.edit("Got the logs wait a sec")
@@ -186,7 +186,7 @@ async def _(dyno):
         dyno.chat_id,
         "logs.txt",
         reply_to=dyno.id,
-        caption="HellBot logs of 100+ lines",
+        caption="𝘿𝙀𝙑𝙄𝙇𝘽𝙊𝙏 logs of 100+ lines",
     )
 
     await asyncio.sleep(5)
