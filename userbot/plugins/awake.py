@@ -8,7 +8,7 @@
 
 # if you kang then keep credits
 
-#cReDiTs -LEGENDX22ð¥ð¥
+#cReDiTs -LEGENDX22⚡⚡
 
 import os
 
@@ -42,11 +42,11 @@ from platform import python_version, uname
 
 
 
-ALIVE_PHOTTO = Config.ALIVE_PHOTTO
+ALIVE_PIC = Config.ALIVE_PIC
 
-if ALIVE_PHOTTO is None:
+if ALIVE_PIC is None:
 
-  ALIVE_PHOTTO = "https://telegra.ph/file/0e36b02061064b7229e3b.jpg"
+  ALIVE_PIC = "https://telegra.ph/file/0e36b02061064b7229e3b.jpg"
 
 
 
