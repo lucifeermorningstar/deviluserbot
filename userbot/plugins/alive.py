@@ -1,11 +1,14 @@
 from userbot import *
 from userbot.utils import *
 from userbot.cmdhelp import CmdHelp
+from userbot.uniborgConfig import Config
 from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from telethon.tl.types import Channel, Chat, User
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DevilUserBot User"
+
+PM_IMG = Config.ALIVE_PIC
 
 ludosudo = Config.SUDO_USERS
 
@@ -16,7 +19,6 @@ else:
 
 kraken = bot.uid
 
-PM_IMG = "https://telegra.ph/file/c2bbdc0f85074429fd928.jpg"
 pm_caption = "__**🔥🔥𝙳𝚎𝚟𝚒𝚕 υѕєявσт ιѕ ση ƒιяє🔥🔥**__\n\n"
 
 pm_caption += (
