@@ -5,7 +5,7 @@ DEPLOYING TO HEROKU
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lucifeermorningstar/deviluserbot)
 
 # 𝐂𝐫𝐞𝐝𝐢𝐭 𝐆𝐨𝐞𝐬 𝐓𝐨
-1. @Errored_Bachha (Error Fixer) 
+1. Programming Error (Error Fixer) 
 2. Kraken (Hellbot owner) 
 3. LegendX (TEAMLEGEND) 
 
