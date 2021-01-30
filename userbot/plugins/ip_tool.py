@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 from userbot.utils import admin_cmd 
 from userbot.utils import edit_or_reply
-from userbot import CMD_HELP
+from userbot.cmdhelp import CmdHelp
 from userbot import bot 
 
 
@@ -134,20 +134,17 @@ async def _(event):
         await cipher.edit("Not a Valid ip/host or Don't Have Enough Info.")
     
     
-CMD_HELP.update(
-    {
-        "cipherxiptools": "cipherxiptools\
-        \n\nSyntax : .nmap <ip/host>\
-        \nUsage : Perform nmap on the defined ip/host address.\
-        \n\nSyntax : .honeypot <ip>\
-        \nUsage : Find honeypot probability through shodan engine.\
-        \n\nSyntax :  .ipreverse <ip>\
-        \nUsage : Perform reverse ip search.\
-        \n\nSyntax :  .dnslookup <ip/host>\
-        \nUsage : Find all dns ips of a ip/host address.\
-        \n\nSyntax :  .ipwhois <ip>\
-        \nUsage : Find whois information of an ip address.\
-        \n\nSyntax :  .advanceip <ip/host>\
-        \nUsage : Find the most detailed Geo information of an ip/host."
-    }
-) 
+
+CmdHelp("cipherxiptools").add_command(
+  'nmap', None, 'Perform nmap on the defined ip/host address.'
+).add_command(
+  'honeypot', None, 'Find honeypot probability through shodan engine.'
+).add_command(
+   'ipreverse', None, 'Perform reverse ip search.'
+).add_command(
+   'dnslookup', None, 'Find all dns ips of a ip/host address.'
+).add_command(
+   'ipwhois', None, 'Find whois information of an ip address.'
+).add_command(
+   'advanceip', None, 'Find the most detailed Geo information of an ip/host.'
+).add()
