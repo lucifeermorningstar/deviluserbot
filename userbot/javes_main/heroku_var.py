@@ -14,10 +14,9 @@ from telethon.sessions import StringSession
 load_dotenv("config.env")
 from distutils.util import strtobool as sb
 class config(object):
-    API_KEY = int(os.environ.get("TELEGRAM_API_KEY", None))
-    APP_ID = int(os.environ.get("TELEGRAM_API_KEY", None))
-    API_HASH = os.environ.get("TELEGRAM_API_HASH", None)
-    STRING_SESSION = os.environ.get("TELEGRAM_STRING_SESSION", None)
+    APP_ID = int(os.environ.get("APP_ID", None))
+    API_HASH = os.environ.get("API_HASH", None)
+    STRING_SESSION = os.environ.get("STRING_SESSION", None)
     TAG_LOG =int(os.environ.get("TAG_LOG",None))
     SCREEN_SHOT_KEY = os.environ.get("SCREEN_SHOT_KEY", None)
     SCREEN_SHOT_LAYER_ACCESS_KEY = SCREEN_SHOT_KEY
@@ -51,7 +50,7 @@ class config(object):
     LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None)
     PM_MESSAGE = os.environ.get(f"PM_MESSAGE", None)
-    JAVES_NAME = os.environ.get("JAVES_NAME", None)
+    JAVES_NAME = os.environ.get("ALIVE_NAME", None)
     ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
     ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
@@ -81,10 +80,9 @@ class config(object):
     DB_URI = os.environ.get("DATABASE_URL", None)
     TMP_DOWNLOAD_DIRECTORY=TEMP_DOWNLOAD_DIRECTORY
 class Var(object):
-    API_KEY = int(os.environ.get("TELEGRAM_API_KEY", None))
-    APP_ID = int(os.environ.get("TELEGRAM_API_KEY", None))
-    API_HASH = os.environ.get("TELEGRAM_API_HASH", None)
-    STRING_SESSION = os.environ.get("TELEGRAM_STRING_SESSION", None)
+    APP_ID = int(os.environ.get("APP_ID", None))
+    API_HASH = os.environ.get("API_HASH", None)
+    STRING_SESSION = os.environ.get("STRING_SESSION", None)
     SCREEN_SHOT_KEY = os.environ.get("SCREEN_SHOT_KEY", None)
     SCREEN_SHOT_LAYER_ACCESS_KEY = SCREEN_SHOT_KEY
     BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
@@ -117,7 +115,7 @@ class Var(object):
     LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None)
     PM_MESSAGE = os.environ.get(f"PM_MESSAGE", None)
-    JAVES_NAME = os.environ.get("JAVES_NAME", None)
+    JAVES_NAME = os.environ.get("ALIVE_NAME", None)
     ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
     ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
@@ -147,12 +145,11 @@ class Var(object):
     DB_URI = os.environ.get("DATABASE_URL", None)
     TAG_LOG =int(os.environ.get("TAG_LOG",None))
     TMP_DOWNLOAD_DIRECTORY=TEMP_DOWNLOAD_DIRECTORY
-class Config(object):
-    API_KEY = int(os.environ.get("TELEGRAM_API_KEY", None))
+class Config(object)
     TAG_LOG =int(os.environ.get("TAG_LOG",None))
-    APP_ID = int(os.environ.get("TELEGRAM_API_KEY", None))
-    API_HASH = os.environ.get("TELEGRAM_API_HASH", None)
-    STRING_SESSION = os.environ.get("TELEGRAM_STRING_SESSION", None)
+    APP_ID = int(os.environ.get("APP_ID", None))
+    API_HASH = os.environ.get("API_HASH", None)
+    STRING_SESSION = os.environ.get("STRING_SESSION", None)
     BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
     BOTLOG = sb(os.environ.get("BOTLOG", "False"))
     LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
@@ -183,7 +180,7 @@ class Config(object):
     LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
     LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None)
     PM_MESSAGE = os.environ.get(f"PM_MESSAGE", None)
-    JAVES_NAME = os.environ.get("JAVES_NAME", None)
+    JAVES_NAME = os.environ.get("ALIVE_NAME", None)
     ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
     ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
     YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
