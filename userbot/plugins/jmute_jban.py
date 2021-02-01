@@ -1,7 +1,7 @@
 from userbot.jevents import javes05
 from userbot import bot, BOTLOG_CHATID, ALIVE_NAME, ALIVE_MSG, CMD_HELP
 import asyncio
-from telethon import jevents
+from telethon import events
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import (PeerChat, PeerChannel,ChannelParticipantsAdmins, ChatAdminRights,ChatBannedRights, MessageEntityMentionName,MessageMediaPhoto, ChannelParticipantsBots)
 from telethon.tl.types import Channel
