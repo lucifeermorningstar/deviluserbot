@@ -145,7 +145,7 @@ class Var(object):
     DB_URI = os.environ.get("DATABASE_URL", None)
     TAG_LOG =int(os.environ.get("TAG_LOG",None))
     TMP_DOWNLOAD_DIRECTORY=TEMP_DOWNLOAD_DIRECTORY
-class Config(object)
+class Config(object):
     TAG_LOG =int(os.environ.get("TAG_LOG",None))
     APP_ID = int(os.environ.get("APP_ID", None))
     API_HASH = os.environ.get("API_HASH", None)
