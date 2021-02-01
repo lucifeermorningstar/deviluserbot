@@ -1,4 +1,4 @@
-from telethon import jevents
+from telethon import events
 from var import Var
 from pathlib import Path
 from userbot.config import Config
