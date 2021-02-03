@@ -39,7 +39,7 @@ async def blowjob(event):
     except Exception as e:
         await edit_or_reply(event, "Error occured!\nError is " + str(e))
     else:
-        await edit_or_reply(event, "Successfully Fucked this user oske muh me dal diya abh nhi bolega lawda.")
+        await edit_or_reply(event, "Successfully Fucked this user.")
 
 
 @bot.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
