@@ -1,5 +1,5 @@
 # Originally made by @rekcah for @javes05
-# porting to hellbot by @kraken_the_badass...
+# porting to devilbot by @lucifeermorningstar...
 # i asked rekcah before porting...not like other kangers....
 # keep credit if u wanna kang...
 # else u are a gay...no doubt in that....
@@ -69,9 +69,9 @@ async def get_users(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
     if not sender.id == me.id:
-        hell = await edit_or_reply(event, "`processing...`")
+        hell = await edit_or_reply(event, "`𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗜𝗡𝗚 𝗧𝗢 𝗞𝗜𝗗𝗡𝗔𝗣 𝗠𝗘𝗠𝗕𝗘𝗥𝗦....`")
     else:
-        hell = await edit_or_reply(event, "`processing...`")
+        hell = await edit_or_reply(event, "`𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗜𝗡𝗚 𝗧𝗢 𝗞𝗜𝗗𝗡𝗔𝗣 𝗠𝗘𝗠𝗕𝗘𝗥𝗦....`")
     kraken = await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
@@ -92,13 +92,13 @@ async def get_users(event):
             )
             s = s + 1
             await hell.edit(
-                f"**Terminal Running...**\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people\n\n**× LastError:** `{error}`"
+                f"**Terminal Running...**\n\n• Invited `{s}` people \n• 𝗙𝗮𝗶𝗹𝗲𝗱 𝘁𝗼 𝗞𝗶𝗱𝗻𝗮𝗽 `{f}` 𝘂𝘀𝗲𝗿𝘀\n\n**× LastError:** `{error}`"
             )
         except Exception as e:
             error = str(e)
             f = f + 1
     return await hell.edit(
-        f"**Terminal Finished** \n\n• Successfully Invited `{s}` people \n• failed to invite `{f}` people"
+        f"**Terminal Finished** \n\n• Successfully 𝗞𝗶𝗱𝗻𝗮𝗽𝗽𝗲𝗱 `{s}` 𝘂𝘀𝗲𝗿𝘀 \n• failed to invite `{f}` people"
     )
 
 
