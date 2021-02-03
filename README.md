@@ -15,6 +15,8 @@ DEPLOYING TO HEROKU
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lucifeermorningstar/deviluserbot)
 
+
+[![DEVILBot logo](https://telegra.ph/file/b907cf4d03ef1298fe623.jpg)](https://t.me/deviluserbot)
 # 𝐂𝐫𝐞𝐝𝐢𝐭 𝐆𝐨𝐞𝐬 𝐓𝐨
 1. Programming Error (Error Fixer) 
 2. Kraken (Hellbot owner) 
