@@ -15,6 +15,9 @@ DEPLOYING TO HEROKU
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lucifeermorningstar/deviluserbot)
 
+## Official Support
+<a href="https://t.me/deviluserbot"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
+
 
 [![DEVILBot logo](https://telegra.ph/file/b907cf4d03ef1298fe623.jpg)](https://t.me/deviluserbot)
 # 𝐂𝐫𝐞𝐝𝐢𝐭 𝐆𝐨𝐞𝐬 𝐓𝐨
