@@ -13,7 +13,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from telethon import functions, types, events
 from userbot import CmdHelp, bot as hellbot
-from userbot.utils import admin_cmd, sudo_cmd, edit_or_reply as eor
+from userbot.hellutils import admin_cmd, sudo_cmd, edit_or_reply as eor
 from userbot.uniborgConfig import Config
 from userbot.plugins.sql_helper.fban_sql import (
     add_channel,
