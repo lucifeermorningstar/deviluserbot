@@ -476,7 +476,7 @@ async def get_user(event):
     """ Get the user from argument or replied message. """
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
-        replied_user = await event.client(GetFullUserRequest(previous_message.from_id))
+        replied_user = await event.client(GetFullUserRequest(previous_message.sender_id))
     else:
         user = event.pattern_match.group(1)
 
@@ -623,7 +623,7 @@ async def vapor(vpr):
 @bot.on(sudo_cmd(pattern=f"repo", allow_sudo=True))
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await edit_or_reply(e, "Click [here](https://github.com/lucifeermorningstar/deviluserbot) to open this 🔥**Lit AF!!**🔥 __DEVIL USERBOT__ Repo.. Join channel :- @deviluserbot)
+        await edit_or_reply(e, "Click [here](https://github.com/lucifeermorningstar/deviluserbot) to open this 🔥**Lit AF!!**🔥 __Dèvílẞø†__ Repo.. Join channel :- @deviluserbot")
 
 
 @bot.on(admin_cmd(pattern="str(?: |$)(.*)", outgoing=True))
