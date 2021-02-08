@@ -1,6 +1,9 @@
-from sqlalchemy import Column, String
-from hellbot.plugins.sql_helper import SESSION, BASE
+try:
+    from userbot.plugins.sql_helper import BASE, SESSION
+except ImportError:
+    raise AttributeError
 
+from sqlalchemy import Column, String, UnicodeText
 
 class fban(BASE):
     __tablename__ = "channels"
