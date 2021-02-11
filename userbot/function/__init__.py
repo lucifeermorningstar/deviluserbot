@@ -29,7 +29,7 @@ import argparse
 import wget
 from fridaybot import bot as borg
 import lottie
-from fridaybot.utils import load_module
+from userbot.futils import load_module
 from telethon.tl.types import DocumentAttributeAudio
 from youtube_dl import YoutubeDL
 from youtube_dl.utils import (
@@ -67,11 +67,11 @@ from telethon.tl.types import MessageMediaPhoto
 from typing import Union
 SIZE_UNITS = ["B", "KB", "MB", "GB", "TB", "PB"]
 BASE_URL = "https://isubtitles.org"
-from fridaybot.Configs import Config
+from userbot.Configs import Config
 import zipfile
 import os
 import aiohttp
-from fridaybot.function.FastTelethon import upload_file
+from userbot.function.FastTelethon import upload_file
 
 
 sedpath = Config.TMP_DOWNLOAD_DIRECTORY
