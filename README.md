@@ -28,4 +28,5 @@ DEPLOYING TO HEROKU
 # 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐓𝐨
      
     𝐇𝐞𝐥𝐥 𝐁𝐨𝐭 𝐓𝐞𝐚𝐦.... 
-    **LEGENDX**
+    LEGENDX (TEAMLEGEND)
+
